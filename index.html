@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>El sitio web de nuestra librería</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	<!-- Sección de Presentación de la Organización -->
+	<section id="organizacion">
+		<h1>Librería El loro viudo</h1>
+		<p>Vendemos y compramos libros. Preferentemente usados</p>
+	</section>
+
+	<!-- Sección de Presentación Personal -->
+	<section id="presentacion-personal">
+		<h2>Presentación Personal</h2>
+		<p>Somos Claudio, Guillermo,Daniela, Maxi, ...</p>
+	</section>
+
+	<!-- Sección de Formulario de Contacto -->
+	<section id="contacto">
+		<h2>Formulario de Contacto</h2>
+		<form action="enviar.php" method="post">
+			<label for="nombre">Nombre:</label>
+			<input type="text" id="nombre" name="nombre" required>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="mensaje">Mensaje:</label>
+			<textarea id="mensaje" name="mensaje" required></textarea>
+
+			<input type="submit" value="Enviar">
+		</form>
+	</section>
+
+	<!-- Sección de Formulario de un Proceso -->
+	<section id="proceso">
+		<h2>Formulario de un Proceso</h2>
+		<form action="proceso.php" method="post">
+			<!-- Aquí se pueden incluir los campos necesarios para el proceso -->
+			<input type="submit" value="Enviar">
+		</form>
+	</section>
+
+</body>
+</html>
